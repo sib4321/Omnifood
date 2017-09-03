@@ -24,7 +24,7 @@ html {
 .clearfix:after {
     content: '.';
     clear: both;
-    display: blok;
+    display: block;
     height: 0;
     visibility: hidden;
 }
