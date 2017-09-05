@@ -22,7 +22,7 @@ body {
     overflow-x: hidden;
 }
 
-.clearfix {zoom: 1}
+.clearfix {zoom: 1 }
 .clearfix:after {
     content: '.';
     clear: both;
@@ -263,6 +263,19 @@ header {
 .main-nav li a:hover,
 .main-nav li a:active {
     border-bottom: 2px solid #e67e22;
+}
+
+/* Mobile navi*/
+.mobile-nav-icon {
+    float: right;
+    margin-top: 30px;
+    cursor: pointer;
+    display: none;
+}
+
+.mobile-nav-icon i {
+    font-size: 200%;
+    color: #fff;
 }
 
 /* Sticky navi*/
@@ -542,7 +555,7 @@ footer {
 
 footer nav {
     list-style: none;
-    folat: left;
+    float: left;
 }
 
 .social-links {
@@ -611,11 +624,9 @@ footer p {
     margin-top: 20px;
 }
 
-
 /*------------------------------*/
 /*Animations*/
 /*------------------------------*/
-
 
 .js--wp-1,
 .js--wp-2,
